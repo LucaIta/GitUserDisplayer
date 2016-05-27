@@ -1,15 +1,12 @@
 var userName;
-var getRepos = require('../js/apiCall.js').getRepos;
+var getAndDisplayRepos = require('../js/apiCall.js').getAndDisplayRepos;
 var repository = require('../js/repository.js').Repository;
 
 $(document).ready(function(){
   $('#userInput').submit(function(event){
     event.preventDefault();
     userName = $('#userName').val();
-    getRepos(userName, repositoryDisplayer);
-    // userRepositoryArray.forEach(function(repository){ this block of code has to became a function
-    //   console.log(repository.repositoryName);
-    // });
+    getAndDisplayRepos(userName, repositoryDisplayer);
   });
 });
 
