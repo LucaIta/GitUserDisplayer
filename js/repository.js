@@ -5,4 +5,5 @@ exports.Repository = function(repository) {
   } else {
     this.repositoryDescription = repository.description;
   }
+  this.created_at = repository.created_at;
 };

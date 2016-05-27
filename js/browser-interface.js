@@ -27,5 +27,6 @@ userDisplayer = function(user) {
 };
 
 repositoryDisplayer = function(repository) {
-  $('.output').append("<div class='repositories'><p>Repository Name: " + repository.repositoryName + "</p> <br> <p> Repository Description: " + repository.repositoryDescription + "</p> </div> <br>");
+  $('.output').append("<div class='repositories'><p>Repository Name: " +
+  repository.repositoryName + "</p> <br> <p> Repository Description: " + repository.repositoryDescription + "</p> <br> <p>Created at: " + moment(repository.created_at).format('MMMM Do YYYY, h:mm:ss') + "</p> </div> <br>");
 };
