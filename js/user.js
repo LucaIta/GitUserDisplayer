@@ -13,6 +13,7 @@ exports.User = function(user){
 
 //
 // can I create someting like this to check all the parameters instead of having a lot of if/else statements?
+
 // var userProperties = ["name","avatar_url","email","followers"];
 //
 // exports.User = function(user){

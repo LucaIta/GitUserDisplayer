@@ -5,7 +5,7 @@ var Repository = require('../js/repository.js').Repository;
 exports.getAndDisplayRepos = function(userName, repositoryDisplayer){
   userRepositoriesArray = [];
   $('.output').empty();
-  $.get('https://api.github.com/users/' + userName + '/repos' + '?access_token=' + apiKey).then(function(response){
+  $.get('https://api.github.com/users/' + userName + '/repos?access_token=' + apiKey).then(function(response){
 
     console.log(response);
     response.forEach(function(repository){
