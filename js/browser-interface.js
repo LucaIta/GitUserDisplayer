@@ -19,5 +19,6 @@ repositoryDisplayer = function(repository) {
 
 userDisplayer = function(user) {
   user = new User(user);
+  $('.userDisplayer').empty();
   $('.userDisplayer').append("<div class='user'><p> User Name: " + user.name + "</p> <br> <img src=" + user.avatar_url + "> <br> <p>Email Address: " + user.email + " </p> <p>Followers: " + user.followers + "</p> </div>");
 };

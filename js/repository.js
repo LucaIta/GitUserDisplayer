@@ -5,5 +5,4 @@ exports.Repository = function(repository) {
   } else {
     this.repositoryDescription = repository.description;
   }
-
 };
