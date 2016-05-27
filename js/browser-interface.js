@@ -8,6 +8,7 @@ $(document).ready(function(){
   $('#userInput').submit(function(event){
     event.preventDefault();
     userName = $('#userName').val();
+    $(".userDisplayer").show();
     getAndDisplayRepos(userName,repositoryDisplayer);
     getAndDisplayUser(userName,userDisplayer);
   });
