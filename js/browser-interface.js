@@ -11,5 +11,5 @@ $(document).ready(function(){
 });
 
 repositoryDisplayer = function(repository) {
-  $('.output').append("<p>Repository Name: " + repository.repositoryName + "<br> </p><p> Repository Description: " + repository.repositoryDescription + "</p> <br> <br>");
+  $('.output').append("<div class='repositories'><p>Repository Name: " + repository.repositoryName + "</p> <br> <p> Repository Description: " + repository.repositoryDescription + "</p> </div> <br>");
 };
