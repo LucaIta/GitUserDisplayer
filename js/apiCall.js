@@ -21,3 +21,13 @@ exports.getAndDisplayRepos = function(userName, repositoryDisplayer){
   });
 
 };
+
+
+exports.getAndDisplayUser = function(userName,userDisplayer){
+
+  $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response){
+    console.log(response);
+    userDisplayer(response);
+  });
+
+};
