@@ -6,15 +6,17 @@
 
 ## Description
 
-_It allow the user to create a database of bands and venues.
-The user can associate venues with band to keep track of the venues in which the bands have played.
-Bands can be delited and their names can be modified._
+_It allow the user to insert a GitHub username and it returns a list of that user's folders_
 
 ## Setup/Installation Requirements
 
-* _clone the following directory: https://github.com/LucaIta/band_tracker.git
-* _run the Spark Server
-* _open your browser at the page http://localhost:4567/
+* _clone the following directory: https://github.com/LucaIta/GitUserDisplayer
+* _add a .env file in your cloned directory including an GitHub API key
+* _run the following commands:
+* _npm install
+* _bower install
+* _gulp build
+* _gulp serve
 
 ## Known Bugs
 
@@ -26,7 +28,7 @@ _contact Luca in case of you have trouble with the page_
 
 ## Technologies Used
 
-_Java, Velocity, Spark, JUnit, FluentLenium, Postgres_
+_JS, node.js, Bower, Gulp_
 
 ### License
 
