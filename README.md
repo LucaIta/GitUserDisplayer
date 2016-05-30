@@ -24,7 +24,7 @@ _It allow the user to insert a GitHub username and it returns a list of that use
 
 ## Support and contact details
 
-_contact Luca in case of you have trouble with the page_
+_Contact Luca in case of you have trouble with the page_
 
 ## Technologies Used
 
