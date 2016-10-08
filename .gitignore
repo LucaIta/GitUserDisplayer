@@ -36,7 +36,6 @@ Thumbs.db
 
 # Java #
 ########
-build/
 .gradle/
 
 # JavaScript #
